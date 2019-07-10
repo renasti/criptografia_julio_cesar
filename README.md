@@ -14,3 +14,14 @@ Normal: 1a.a
 
 Cifrado: 1d.d
 
+Conteúdo do desafio
+
+{
+    "numero_casas": 9,
+    "token": "c335374e8256c92a323d169944a44c3267ce965a",
+    "cifrado": "mnbrpw rb lqxxbrwp qxf hxd fruu ojru. axw onrw",
+    "decifrado": "",
+    "resumo_criptografico": ""
+}
+
+Você precisa decifrar o texto do campo cifrado e também gerar um resumo criptografado em sha1.
