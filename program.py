@@ -35,7 +35,7 @@ def decodificaTexto(textoParaDecifrar,qtdCasasDecifrar):
     #Criptografa o texto decifrado em sha1
     resumoCriptografico = hashlib.sha1(textoDecifrado.encode())
     
-    #Criar json resultado
+    #Cria resultado json
     dados = {
         "texto_decifrado" : textoDecifrado,
         "resumo_criptografico" : resumoCriptografico.hexdigest()
